@@ -3,7 +3,8 @@ div {
     width: 100px;
     display: inline-block;
     position: relative; 
-    float: left;
+    float: left; 
+    cursor: pointer;
 }
 
 /* Box */
