@@ -1,0 +1,83 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative; 
+    float: left;
+}
+
+/* Box */
+
+.first {
+    background: red;
+}
+
+.second {
+    background-color: black;
+}
+
+.third {
+    background-color: orange;
+}
+
+.fourth {
+    background-color: aqua;
+}
+
+.fifth {
+    background-color: brown;
+}
+
+.sixth {
+    background-color: darkgrey;
+}
+
+.seventh {
+    background-color: blanchedalmond;
+}
+
+.eighth {
+    background-color: chartreuse;
+}
+
+.ninth {
+    background-color: blue;
+}
+
+.tenth {
+    background-color: firebrick;
+}
+
+.crosswise {
+    animation: crosswise 5s;
+}
+
+.height {
+    animation: height 5s;
+}
+
+.spin {
+    animation: spin 5s;
+}
+
+/* keyframes */
+
+@keyframes crosswise {
+    0% {background-color:red; left:0px; top:0px;}
+    50% {background-color:blue; left:200px; top:200px;}
+    75% {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+@keyframes height {
+    0% {height: 100px;}
+    25% {height: 300px;}
+    50% {height: 500px;}
+    75% {height: 300px;}
+    100% {height: 100px;}
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}   
+}
